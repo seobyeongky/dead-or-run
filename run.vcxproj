@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\big_msg.h" />
+    <ClInclude Include="src\block_allocator.h" />
+    <ClInclude Include="src\cooldown_shadow.h" />
+    <ClInclude Include="src\inventory_box.h" />
+    <ClInclude Include="src\json.h" />
+    <ClInclude Include="src\object.h" />
+    <ClInclude Include="src\camera.h" />
+    <ClInclude Include="src\char_desc.h" />
+    <ClInclude Include="src\chat_box.h" />
+    <ClInclude Include="src\config.h" />
+    <ClInclude Include="src\coord.h" />
+    <ClInclude Include="src\d_input.h" />
+    <ClInclude Include="src\edit_text.h" />
+    <ClInclude Include="src\etc\mem_leak.h" />
+    <ClInclude Include="src\object_interface.h" />
+    <ClInclude Include="src\object_palette.h" />
+    <ClInclude Include="src\portal.h" />
+    <ClInclude Include="src\runner_factory.h" />
+    <ClInclude Include="src\sandstorm.h" />
+    <ClInclude Include="src\player.h" />
+    <ClInclude Include="src\play_scene_layout.h" />
+    <ClInclude Include="src\runner.h" />
+    <ClInclude Include="src\sfx_mgr.h" />
+    <ClInclude Include="src\skill_box.h" />
+    <ClInclude Include="src\smoke.h" />
+    <ClInclude Include="src\speed_def.h" />
+    <ClInclude Include="src\string_converter.h" />
+    <ClInclude Include="src\sv_module\myip.h" />
+    <ClInclude Include="src\sv_module\physical_engine.h" />
+    <ClInclude Include="src\sv_module\port_forwarder.h" />
+    <ClInclude Include="src\sv_module\poster.h" />
+    <ClInclude Include="src\sv_module\sv_object.h" />
+    <ClInclude Include="src\sv_module\sv_res.h" />
+    <ClInclude Include="src\sv_module\sv_runner.h" />
+    <ClInclude Include="src\s_map.h" />
+    <ClInclude Include="src\play_scene.h" />
+    <ClInclude Include="src\protocol.h" />
+    <ClInclude Include="src\starting_scene.h" />
+    <ClInclude Include="src\internal.h" />
+    <ClInclude Include="src\intro_scene.h" />
+    <ClInclude Include="src\res.h" />
+    <ClInclude Include="src\scene.h" />
+    <ClInclude Include="src\sv_module\sv_context.h" />
+    <ClInclude Include="src\sv_module\sv_module.h" />
+    <ClInclude Include="src\sv_module\sv_play_scene.h" />
+    <ClInclude Include="src\sv_module\sv_scene.h" />
+    <ClInclude Include="src\sv_module\sv_thread.h" />
+    <ClInclude Include="src\sv_module\sv_wait_scene.h" />
+    <ClInclude Include="src\thread.h" />
+    <ClInclude Include="src\tile.h" />
+    <ClInclude Include="src\tilemap.h" />
+    <ClInclude Include="src\util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\big_msg.cpp" />
+    <ClCompile Include="src\camera.cpp" />
+    <ClCompile Include="src\characters.cpp" />
+    <ClCompile Include="src\char_desc.cpp" />
+    <ClCompile Include="src\chat_box.cpp" />
+    <ClCompile Include="src\cooldown_shadow.cpp" />
+    <ClCompile Include="src\d_input.cpp" />
+    <ClCompile Include="src\edit_text.cpp" />
+    <ClCompile Include="src\block_allocator.cpp" />
+    <ClCompile Include="src\inventory_box.cpp" />
+    <ClCompile Include="src\json.cpp" />
+    <ClCompile Include="src\object.cpp" />
+    <ClCompile Include="src\runner_factory.cpp" />
+    <ClCompile Include="src\object_palette.cpp" />
+    <ClCompile Include="src\runner_kim.cpp" />
+    <ClCompile Include="src\runner_random.cpp" />
+    <ClCompile Include="src\runner_yong.cpp" />
+    <ClCompile Include="src\runner_yoon.cpp" />
+    <ClCompile Include="src\sandstorm.cpp" />
+    <ClCompile Include="src\play_scene.cpp" />
+    <ClCompile Include="src\play_scene_util.cpp" />
+    <ClCompile Include="src\play_scene_draw.cpp" />
+    <ClCompile Include="src\play_scene_input.cpp" />
+    <ClCompile Include="src\play_scene_net.cpp" />
+    <ClCompile Include="src\runner.cpp" />
+    <ClCompile Include="src\runner_jeong.cpp" />
+    <ClCompile Include="src\runner_oh.cpp" />
+    <ClCompile Include="src\runner_park.cpp" />
+    <ClCompile Include="src\runner_seo.cpp" />
+    <ClCompile Include="src\sfx_mgr.cpp" />
+    <ClCompile Include="src\skills.cpp" />
+    <ClCompile Include="src\skill_box.cpp" />
+    <ClCompile Include="src\smoke.cpp" />
+    <ClCompile Include="src\starting_scene.cpp" />
+    <ClCompile Include="src\intro_scene.cpp" />
+    <ClCompile Include="src\loaded_lib.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\res.cpp" />
+    <ClCompile Include="src\scene.cpp" />
+    <ClCompile Include="src\scene_table.cpp" />
+    <ClCompile Include="src\string_converter.cpp" />
+    <ClCompile Include="src\sv_module\myip.cpp" />
+    <ClCompile Include="src\sv_module\physical_engine.cpp" />
+    <ClCompile Include="src\sv_module\port_forwarder.cpp" />
+    <ClCompile Include="src\sv_module\poster.cpp" />
+    <ClCompile Include="src\sv_module\sv_module.cpp" />
+    <ClCompile Include="src\sv_module\sv_play_scene.cpp" />
+    <ClCompile Include="src\sv_module\sv_play_scene_init.cpp" />
+    <ClCompile Include="src\sv_module\sv_play_scene_util.cpp" />
+    <ClCompile Include="src\sv_module\sv_runner.cpp" />
+    <ClCompile Include="src\sv_module\sv_scene.cpp" />
+    <ClCompile Include="src\sv_module\sv_play_scene_skill.cpp" />
+    <ClCompile Include="src\sv_module\sv_thread.cpp" />
+    <ClCompile Include="src\sv_module\sv_wait_scene.cpp" />
+    <ClCompile Include="src\thread.cpp" />
+    <ClCompile Include="src\tile.cpp" />
+    <ClCompile Include="src\tilemap.cpp" />
+    <ClCompile Include="src\util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="game.ini" />
+    <None Include="sound\bgm.ogg" />
+    <None Include="sound\female_hit0.ogg" />
+    <None Include="sound\female_hit1.ogg" />
+    <None Include="sound\female_hit2.ogg" />
+    <None Include="sound\female_yell.ogg" />
+    <None Include="sound\male_hit0.ogg" />
+    <None Include="sound\male_hit1.ogg" />
+    <None Include="sound\male_hit2.ogg" />
+    <None Include="sound\male_hit3.ogg" />
+    <None Include="sound\male_hit4.ogg" />
+    <None Include="sound\male_yell.ogg" />
+    <None Include="sound\wind0.ogg" />
+    <None Include="sound\wind1.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\NanumGothic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="font\라이센스(license).txt" />
+    <Text Include="키 설명.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\chars.png" />
+    <Image Include="image\etc.png" />
+    <Image Include="image\face.png" />
+    <Image Include="image\items.png" />
+    <Image Include="image\tileset.png" />
+    <Image Include="src\play_scene_layout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="image\chars.xml" />
+    <Xml Include="image\etc.xml" />
+    <Xml Include="image\face.xml" />
+    <Xml Include="image\file_info.xml" />
+    <Xml Include="image\items.xml" />
+    <Xml Include="image\tileset.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\back_attack.wav" />
+    <Media Include="sound\bayaba.wav" />
+    <Media Include="sound\bell.wav" />
+    <Media Include="sound\dominating.mp3" />
+    <Media Include="sound\eat.wav" />
+    <Media Include="sound\enter.wav" />
+    <Media Include="sound\flash0.wav" />
+    <Media Include="sound\flash1.wav" />
+    <Media Include="sound\get.wav" />
+    <Media Include="sound\gift_drop.wav" />
+    <Media Include="sound\godcome.wav" />
+    <Media Include="sound\godlike.mp3" />
+    <Media Include="sound\hair_shot.wav" />
+    <Media Include="sound\headshot0.wav" />
+    <Media Include="sound\headshot1.wav" />
+    <Media Include="sound\info.wav" />
+    <Media Include="sound\leap.wav" />
+    <Media Include="sound\leave_chat.mp3" />
+    <Media Include="sound\lose.wav" />
+    <Media Include="sound\male_scream.wav" />
+    <Media Include="sound\rampage.mp3" />
+    <Media Include="sound\ready.mp3" />
+    <Media Include="sound\roar.wav" />
+    <Media Include="sound\set_move.wav" />
+    <Media Include="sound\shout1.wav" />
+    <Media Include="sound\smog.wav" />
+    <Media Include="sound\speed_up.wav" />
+    <Media Include="sound\stimpack.wav" />
+    <Media Include="sound\stone_throw.wav" />
+    <Media Include="sound\stop.wav" />
+    <Media Include="sound\unstoppable.mp3" />
+    <Media Include="sound\water.wav" />
+    <Media Include="sound\win.wav" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BF543133-182D-4950-B571-88EDCF7C783D}</ProjectGuid>
+    <RootNamespace>run</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>.\dep\opznet;.\dep\audiere;.\dep\sfml2\;.\dep\leak\include\;$(IncludePath);.\dep\websockets;.\dep\curl\include</IncludePath>
+    <LibraryPath>.\dep\audiere\;.\dep\opznet\;.\dep\sfml2;.\dep\leak\lib\;.\dep\websockets\debug;$(LibraryPath);.\dep\curl\</LibraryPath>
+    <OutDir>build\$(Configuration)\</OutDir>
+    <IntDir>temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>.\dep\opznet;.\dep\audiere;.\dep\sfml2\;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir_71A)include;$(FrameworkSDKDir_71A)include;.\dep\websockets;.\dep\curl\include</IncludePath>
+    <OutDir>build\$(Configuration)\</OutDir>
+    <IntDir>temp\$(Configuration)\</IntDir>
+    <LibraryPath>.\dep\audiere\;.\dep\opznet\;.\dep\sfml2\;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir_71A)lib;.\dep\websockets\release;.\dep\curl\</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Windows</SubSystem>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

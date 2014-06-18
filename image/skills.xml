@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:543e0ec56c66f8e57be1f638e24e94d1:e6e8508af40d00abc8ce1bb7578f94e1:7d5e8e0ced7e98b632981db209711a43$ -->
+<Imageset Name="skills" Imagefile="skills.png" NativeHorzRes="256" NativeVertRes="512" AutoScaled="false">
+    <Image Name="back-attack-icon" XPos="2" YPos="2" Width="50" Height="50"/>
+    <Image Name="bayaba-icon" XPos="54" YPos="2" Width="50" Height="50"/>
+    <Image Name="flash-transfer-icon" XPos="106" YPos="2" Width="50" Height="50"/>
+    <Image Name="ghost-icon" XPos="158" YPos="2" Width="50" Height="50"/>
+    <Image Name="god-come-icon" XPos="2" YPos="54" Width="50" Height="50"/>
+    <Image Name="ground-attack-icon" XPos="54" YPos="54" Width="50" Height="50"/>
+    <Image Name="grudge-icon" XPos="106" YPos="54" Width="50" Height="50"/>
+    <Image Name="hell-gate-icon" XPos="158" YPos="54" Width="50" Height="50"/>
+    <Image Name="leap-icon" XPos="2" YPos="106" Width="50" Height="50"/>
+    <Image Name="mad-dog-icon" XPos="54" YPos="106" Width="50" Height="50"/>
+    <Image Name="magic-booger-icon" XPos="106" YPos="106" Width="50" Height="50"/>
+    <Image Name="provoking-icon" XPos="158" YPos="106" Width="50" Height="50"/>
+    <Image Name="skill-box" XPos="2" YPos="158" Width="89" Height="191"/>
+    <Image Name="smoke-icon" XPos="93" YPos="158" Width="50" Height="50"/>
+</Imageset>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:71a712ab78e78f96a9959f41d5ad3a96:d6f84020d4cf4943b8c3de2f7951e04a:9d23f857ec87db25379f0648759444c2$ -->
+<Imageset Name="chars" Imagefile="chars.png" NativeHorzRes="1024" NativeVertRes="1024" AutoScaled="false">
+    <Image Name="booger" XPos="2" YPos="2" Width="30" Height="30"/>
+    <Image Name="ground-attack" XPos="34" YPos="2" Width="200" Height="140"/>
+    <Image Name="hair" XPos="236" YPos="2" Width="55" Height="244"/>
+    <Image Name="jeong" XPos="293" YPos="2" Width="375" Height="80"/>
+    <Image Name="kim" XPos="670" YPos="2" Width="260" Height="65"/>
+    <Image Name="oh" XPos="2" YPos="248" Width="310" Height="70"/>
+    <Image Name="park" XPos="314" YPos="248" Width="472" Height="77"/>
+    <Image Name="portal" XPos="2" YPos="327" Width="946" Height="180"/>
+    <Image Name="random-runner" XPos="950" YPos="327" Width="70" Height="85"/>
+    <Image Name="seo" XPos="2" YPos="509" Width="301" Height="64"/>
+    <Image Name="smoke" XPos="305" YPos="509" Width="196" Height="182"/>
+    <Image Name="unknown-char" XPos="503" YPos="509" Width="300" Height="83"/>
+    <Image Name="yong" XPos="2" YPos="693" Width="252" Height="74"/>
+    <Image Name="yoon" XPos="256" YPos="693" Width="412" Height="80"/>
+</Imageset>

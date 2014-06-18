@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="res\font">
+      <UniqueIdentifier>{fc2532e5-0b75-4ae0-99e8-d6eb3f7620cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\image">
+      <UniqueIdentifier>{cdcaf2fd-f2d0-4eb8-ac28-c06bf6875fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\sound">
+      <UniqueIdentifier>{4bed5b58-86a3-465f-9f62-bf7af96f27d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code">
+      <UniqueIdentifier>{67b8d3fa-0634-4e22-9431-d058894b19da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src-code\header\sv_module">
+      <UniqueIdentifier>{33d8e955-e38c-412c-9da4-a037d7c01148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\header\basic">
+      <UniqueIdentifier>{5db4b1c8-e7fc-4c19-910b-aaaaa84526f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src-code\src\sv_module">
+      <UniqueIdentifier>{dec6390a-6bce-40d9-bc3e-29e6e0ea431a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\src\basic">
+      <UniqueIdentifier>{964bc222-840c-4056-844b-9adf78299d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\header\etc">
+      <UniqueIdentifier>{756a528e-1cb6-44c4-a342-afe08864de32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\src\play_scene">
+      <UniqueIdentifier>{6e15d68c-6483-4be1-85ca-c8184aa3652f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\src\play_scene\runner">
+      <UniqueIdentifier>{e3b6ed22-5035-4a0a-b95b-fd64ae4d483d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\header\play_scene">
+      <UniqueIdentifier>{27077f68-1b94-442b-9432-a613e6569995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\src\starting_scene">
+      <UniqueIdentifier>{8e870c8f-f9b2-471e-b365-ea2207818b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\src\intro_scene">
+      <UniqueIdentifier>{5c4e8a8c-10a5-4d25-938b-3000fa3fb7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\header\starting_scene">
+      <UniqueIdentifier>{caf69c38-ba06-4af8-b700-1140bd2c2e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-code\header\intro_scene">
+      <UniqueIdentifier>{daacaa82-749d-4993-8dae-4f5d7fbb4d81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\loaded_lib.cpp">
+      <Filter>src-code\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src-code\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.cpp">
+      <Filter>src-code\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\sv_thread.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\res.cpp">
+      <Filter>src-code\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>src-code\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene_table.cpp">
+      <Filter>src-code\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\sv_module.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread.cpp">
+      <Filter>src-code\src\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runner_seo.cpp">
+      <Filter>src-code\src\play_scene\runner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runner_park.cpp">
+      <Filter>src-code\src\play_scene\runner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\d_input.cpp">
+      <Filter>src-code\src\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runner_oh.cpp">
+      <Filter>src-code\src\play_scene\runner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runner_jeong.cpp">
+      <Filter>src-code\src\play_scene\runner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\sv_scene.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\sv_runner.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\physical_engine.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runner.cpp">
+      <Filter>src-code\src\play_scene\runner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\play_scene.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tile.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\play_scene_input.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\play_scene_draw.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\play_scene_net.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\play_scene_util.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\starting_scene.cpp">
+      <Filter>src-code\src\starting_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\intro_scene.cpp">
+      <Filter>src-code\src\intro_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\edit_text.cpp">
+      <Filter>src-code\src\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tilemap.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\char_desc.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\big_msg.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chat_box.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sandstorm.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runner_factory.cpp">
+      <Filter>src-code\src\play_scene\runner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object_palette.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sfx_mgr.cpp">
+      <Filter>src-code\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inventory_box.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smoke.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\sv_play_scene.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\sv_play_scene_init.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\sv_play_scene_skill.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runner_random.cpp">
+      <Filter>src-code\src\play_scene\runner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\sv_wait_scene.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runner_kim.cpp">
+      <Filter>src-code\src\play_scene\runner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runner_yong.cpp">
+      <Filter>src-code\src\play_scene\runner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skill_box.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skills.cpp">
+      <Filter>src-code\src\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\characters.cpp">
+      <Filter>src-code\src\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cooldown_shadow.cpp">
+      <Filter>src-code\src\play_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\sv_play_scene_util.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\runner_yoon.cpp">
+      <Filter>src-code\src\play_scene\runner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\poster.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string_converter.cpp">
+      <Filter>src-code\src\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\json.cpp">
+      <Filter>src-code\src\starting_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\block_allocator.cpp">
+      <Filter>src-code\src\starting_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\port_forwarder.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sv_module\myip.cpp">
+      <Filter>src-code\src\sv_module</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\internal.h">
+      <Filter>src-code\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util.h">
+      <Filter>src-code\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\res.h">
+      <Filter>src-code\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>src-code\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\sv_thread.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\sv_module.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread.h">
+      <Filter>src-code\header\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\sv_context.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\sv_scene.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\s_map.h">
+      <Filter>src-code\header\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\etc\mem_leak.h">
+      <Filter>src-code\header\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\d_input.h">
+      <Filter>src-code\header\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\protocol.h">
+      <Filter>src-code\header\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coord.h">
+      <Filter>src-code\header\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\sv_runner.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\sv_res.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\play_scene.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\play_scene_layout.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\speed_def.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\runner.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\edit_text.h">
+      <Filter>src-code\header\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\starting_scene.h">
+      <Filter>src-code\header\starting_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\intro_scene.h">
+      <Filter>src-code\header\intro_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>src-code\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tilemap.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\char_desc.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\big_msg.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chat_box.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sandstorm.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\runner_factory.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\physical_engine.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object_palette.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object_interface.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sfx_mgr.h">
+      <Filter>src-code\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\sv_object.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tile.h">
+      <Filter>src-code\header\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inventory_box.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smoke.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\sv_play_scene.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\sv_wait_scene.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\portal.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\skill_box.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cooldown_shadow.h">
+      <Filter>src-code\header\play_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\string_converter.h">
+      <Filter>src-code\src\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\poster.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json.h">
+      <Filter>src-code\header\starting_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\block_allocator.h">
+      <Filter>src-code\header\starting_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\port_forwarder.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sv_module\myip.h">
+      <Filter>src-code\header\sv_module</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="game.ini" />
+    <None Include="sound\bgm.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\female_hit0.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\female_hit1.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\female_hit2.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\female_yell.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\male_hit0.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\male_hit1.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\male_hit2.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\male_hit3.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\male_hit4.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\male_yell.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\wind0.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+    <None Include="sound\wind1.ogg">
+      <Filter>res\sound</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="font\라이센스(license).txt">
+      <Filter>res\font</Filter>
+    </Text>
+    <Text Include="키 설명.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\NanumGothic.ttf">
+      <Filter>res\font</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\etc.png">
+      <Filter>res\image</Filter>
+    </Image>
+    <Image Include="image\items.png">
+      <Filter>res\image</Filter>
+    </Image>
+    <Image Include="image\face.png">
+      <Filter>res\image</Filter>
+    </Image>
+    <Image Include="src\play_scene_layout.png" />
+    <Image Include="image\tileset.png">
+      <Filter>res\image</Filter>
+    </Image>
+    <Image Include="image\chars.png">
+      <Filter>res\image</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="image\etc.xml">
+      <Filter>res\image</Filter>
+    </Xml>
+    <Xml Include="image\file_info.xml">
+      <Filter>res\image</Filter>
+    </Xml>
+    <Xml Include="image\items.xml">
+      <Filter>res\image</Filter>
+    </Xml>
+    <Xml Include="image\face.xml">
+      <Filter>res\image</Filter>
+    </Xml>
+    <Xml Include="image\tileset.xml">
+      <Filter>res\image</Filter>
+    </Xml>
+    <Xml Include="image\chars.xml">
+      <Filter>res\image</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\back_attack.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\bayaba.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\eat.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\enter.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\get.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\gift_drop.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\godcome.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\hair_shot.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\headshot0.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\headshot1.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\leap.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\leave_chat.mp3">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\lose.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\male_scream.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\ready.mp3">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\roar.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\set_move.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\shout1.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\smog.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\stimpack.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\stone_throw.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\water.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\win.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\info.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\flash0.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\flash1.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\speed_up.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\stop.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\dominating.mp3">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\godlike.mp3">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\rampage.mp3">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\unstoppable.mp3">
+      <Filter>res\sound</Filter>
+    </Media>
+    <Media Include="sound\bell.wav">
+      <Filter>res\sound</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

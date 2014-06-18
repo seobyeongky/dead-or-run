@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:64e5ac22858ab531214206ea979982bf:1/1$ -->
+<Imageset Name="face" Imagefile="face.png" NativeHorzRes="512" NativeVertRes="1024" AutoScaled="false">
+    <Image Name="face-of-jeong" XPos="2" YPos="2" Width="200" Height="170"/>
+    <Image Name="face-of-kim" XPos="204" YPos="2" Width="200" Height="170"/>
+    <Image Name="face-of-oh" XPos="2" YPos="174" Width="200" Height="170"/>
+    <Image Name="face-of-park" XPos="204" YPos="174" Width="200" Height="170"/>
+    <Image Name="face-of-seo" XPos="2" YPos="346" Width="200" Height="170"/>
+    <Image Name="face-of-yong" XPos="204" YPos="346" Width="200" Height="170"/>
+    <Image Name="face-of-yoon" XPos="406" YPos="346" Width="77" Height="69"/>
+    <Image Name="unknown-face" XPos="2" YPos="518" Width="200" Height="170"/>
+    <Image Name="캡처" XPos="204" YPos="518" Width="215" Height="227"/>
+</Imageset>

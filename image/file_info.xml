@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Fileset>
+	<XMLFile name="chars.xml">
+	<XMLFile name="items.xml">
+	<XMLFile name="etc.xml">
+	<XMLFile name="face.xml">
+	<XMLFile name="tileset.xml">
+	<XMLFile name="skills.xml">
+</Fileset>

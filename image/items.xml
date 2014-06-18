@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:e2fade3e5099eabc28b966408da6129c$ -->
+<Imageset Name="items" Imagefile="items.png" NativeHorzRes="128" NativeVertRes="512" AutoScaled="false">
+    <Image Name="Wonton" XPos="54" YPos="158" Width="50" Height="50"/>
+    <Image Name="big_wonton" XPos="54" YPos="210" Width="50" Height="50"/>
+    <Image Name="curry_rice" XPos="2" YPos="210" Width="50" Height="50"/>
+    <Image Name="double_jajang" XPos="2" YPos="262" Width="50" Height="50"/>
+    <Image Name="hand" XPos="54" YPos="262" Width="52" Height="32"/>
+    <Image Name="inventory" XPos="2" YPos="314" Width="89" Height="191"/>
+    <Image Name="jajang" XPos="2" YPos="158" Width="50" Height="50"/>
+    <Image Name="job_rice" XPos="2" YPos="2" Width="50" Height="50"/>
+    <Image Name="jong_ho_food" XPos="2" YPos="54" Width="50" Height="50"/>
+    <Image Name="ramyun" XPos="54" YPos="106" Width="50" Height="50"/>
+    <Image Name="rice" XPos="54" YPos="54" Width="50" Height="50"/>
+    <Image Name="stone" XPos="2" YPos="106" Width="50" Height="50"/>
+    <Image Name="teok_ramyun" XPos="54" YPos="2" Width="50" Height="50"/>
+</Imageset>

@@ -1,0 +1,8 @@
+*log.txt
+temp/
+build/
+*.suo
+*.user
+test/
+test-d/
+publication/

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:691838303dc215370804a3f8b97f7d48:83510a783385d38129c2370a811d05f2:e7db934616817a52c6ee2ee733611a17$ -->
+<Imageset Name="etc" Imagefile="etc.png" NativeHorzRes="1024" NativeVertRes="512" AutoScaled="false">
+    <Image Name="bg" XPos="294" YPos="122" Width="600" Height="350"/>
+    <Image Name="ooparts" XPos="2" YPos="2" Width="265" Height="91"/>
+    <Image Name="pyramid" XPos="2" YPos="122" Width="290" Height="167"/>
+    <Image Name="sfml-logo" XPos="269" YPos="2" Width="373" Height="113"/>
+    <Image Name="title" XPos="644" YPos="2" Width="206" Height="118"/>
+</Imageset>

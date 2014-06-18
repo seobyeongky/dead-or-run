@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:bf757516ed290b21588e9e2222cb3fc1$ -->
+<Imageset Name="tileset" Imagefile="tileset.png" NativeHorzRes="1024" NativeVertRes="128" AutoScaled="false">
+    <Image Name="cactus" XPos="2" YPos="2" Width="35" Height="53"/>
+    <Image Name="dirt-tile" XPos="39" YPos="2" Width="175" Height="35"/>
+    <Image Name="sandstorm" XPos="216" YPos="2" Width="569" Height="112"/>
+    <Image Name="shadow" XPos="787" YPos="2" Width="69" Height="42"/>
+    <Image Name="water-tile" XPos="858" YPos="2" Width="35" Height="35"/>
+</Imageset>
